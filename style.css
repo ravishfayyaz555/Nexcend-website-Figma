@@ -2,11 +2,16 @@
     --primary:#18191F;
     --greenColor:#4CAF4F;
 }
+@font-face {
+    font-family: "Inter";
+    src: url(./fonts/Inter_18pt-SemiBold.ttf);
+}
 .blackColor{
     color: var(--primary)!important;
 }
 .textgreen{
     color: var(--greenColor);
+
 }
 .textgreen:hover{
     color: var(--greenColor);
@@ -16,4 +21,23 @@
 }
 .bggreen:hover{
     background-color: var(--greenColor);
+}
+.font{
+    font-family: Inter;
+}
+.bg-hero{
+    background-color: #F5F7FA;
+}
+.customGap{
+    gap: 100px;
+}
+.customShadow{
+    box-shadow: #ABBED133;
+}
+
+
+@media screen and (max-width:576px) {
+    .size{
+        width: 50%;
+    }
 }
