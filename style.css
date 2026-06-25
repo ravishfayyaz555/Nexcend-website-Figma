@@ -35,6 +35,63 @@
     box-shadow: #ABBED133;
 }
 
+/* me work */
+.tx{
+   text-align: left;
+}
+
+.txs{
+font-size: 35px !important;
+}
+
+.txp{
+   font-size: 15px;
+}
+
+.bgfooter{
+   background: #263238;
+
+}
+
+
+.color-white{
+   color: white !important;
+}
+
+
+.box-s{
+   width: 22% !important;
+}
+
+.bgemail{
+   background: #FFFFFF;
+ 
+}
+
+
+.footergrey{
+   background-color: #515b60 !important;
+}
+
+.footergrey::placeholder{
+   color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:576px) {
     .size{
